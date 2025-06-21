@@ -63,7 +63,13 @@ A comprehensive FastAPI application for managing KFC restaurant operations inclu
    ```bash
    uvicorn main:app --reload --host 0.0.0.0 --port 8000
    ```
-
+create the .env file 
+ MYSQL_USER=root
+   MYSQL_PASSWORD=
+   MYSQL_HOST=localhost
+   MYSQL_PORT=3306
+   MYSQL_DATABASE=kfc_restaurant
+   SECRET_KEY="23345fffrr47klopsss"
 ## API Documentation
 
 Once the application is running, you can access:
